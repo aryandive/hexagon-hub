@@ -19,7 +19,37 @@ body {
    INTERN 1 STYLES (The Navigator)
 ========================================= */
 #navbar {
-    /* Add your navbar styles here */
+    #navbar {
+        border-bottom: 1px dashed #ccc;
+      }
+      
+      .nav-container {
+        display: flex;                  /* Flexbox */
+        justify-content: space-between; /* Logo left, links right */
+        align-items: center;
+        padding: 20px;
+      }
+      
+      .logo {
+        font-size: 22px;
+        font-weight: bold;
+      }
+      
+      .nav-links {
+        list-style: none;
+        display: flex;
+      }
+      
+      .nav-links li {
+        margin-left: 25px;
+      }
+      
+      .nav-links a {
+        text-decoration: none;
+        color: #000;
+      }
+      
+      
 
 }
 
