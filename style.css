@@ -1,0 +1,78 @@
+/* =========================================
+   GLOBAL STYLES (DO NOT TOUCH WITHOUT ASKING)
+========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for Dark Mode */
+}
+
+/* =========================================
+   INTERN 1 STYLES (The Navigator)
+========================================= */
+#navbar {
+    /* Add your navbar styles here */
+
+}
+
+
+/* =========================================
+   INTERN 2 STYLES (The Marketer)
+========================================= */
+#hero {
+    /* Add your hero section styles here */
+
+}
+
+
+/* =========================================
+   INTERN 3 STYLES (The Recruiter)
+========================================= */
+#team {
+    /* Add your team grid styles here */
+
+}
+
+
+/* =========================================
+   INTERN 4 STYLES (The Analyst)
+========================================= */
+#skills {
+    /* Add your skills styles here */
+
+}
+
+
+/* =========================================
+   INTERN 5 STYLES (The Closer)
+========================================= */
+#footer {
+    /* Add your footer styles here */
+
+}
+
+
+/* =========================================
+   INTERN 6 STYLES (The Wizard)
+   Task: Define the look of Dark Mode.
+========================================= */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode #hero,
+body.dark-mode #skills {
+    background-color: #1e1e1e !important;
+    /* Overrides light section backgrounds */
+}
+
+/* Add specific dark mode styles for other elements below if needed */
